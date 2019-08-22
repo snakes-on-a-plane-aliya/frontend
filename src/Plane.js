@@ -13,60 +13,192 @@ class Plane extends React.Component {
             rows : [[
                 {
                     cell_type : 'entrance',
+                    x_pos : 0,
+                    y_pos : 0,
                 },
                 {
                     cell_type : 'aisle',
+                    x_pos : 1,
+                    y_pos : 0,
                 },
                 {
                     cell_type : 'aisle',
+                    x_pos : 2,
+                    y_pos : 0,
                 },
                 {
                     cell_type : 'aisle',
+                    x_pos : 3,
+                    y_pos : 0,
                 },
                 {
                     cell_type : 'aisle',
+                    x_pos : 4,
+                    y_pos : 0,
                 },
                 {
                     cell_type : 'seat',
+                    x_pos : 5,
+                    y_pos : 0,
                 },
                 {
                     cell_type : 'seat',
+                    x_pos : 6,
+                    y_pos : 0,
                 },
                 {
                     cell_type : 'seat',
+                    x_pos : 7,
+                    y_pos : 0,
                 },
                 {
                     cell_type : 'wall',
+                    x_pos : 8,
+                    y_pos : 0,
                 },
                 
             ],
             [
                 {
                     cell_type : 'wall',
+                    x_pos : 0,
+                    y_pos : 1,
                 },
                 {
                     cell_type : 'seat',
+                    x_pos : 1,
+                    y_pos : 1,
                 },
                 {
                     cell_type : 'seat',
+                    x_pos : 2,
+                    y_pos : 1,
                 },
                 {
                     cell_type : 'seat',
+                    x_pos : 3,
+                    y_pos : 1,
                 },
                 {
                     cell_type : 'aisle',
+                    x_pos : 4,
+                    y_pos : 1,
                 },
                 {
                     cell_type : 'seat',
+                    x_pos : 5,
+                    y_pos : 1,
                 },
                 {
                     cell_type : 'seat',
+                    x_pos : 6,
+                    y_pos : 1,
                 },
                 {
                     cell_type : 'seat',
+                    x_pos : 7,
+                    y_pos : 1,
                 },
                 {
                     cell_type : 'wall',
+                    x_pos : 8,
+                    y_pos : 1,
+                },
+            ],
+            [
+                {
+                    cell_type : 'wall',
+                    x_pos : 0,
+                    y_pos : 2,
+                },
+                {
+                    cell_type : 'seat',
+                    x_pos : 1,
+                    y_pos : 2,
+                    
+                },
+                {
+                    cell_type : 'seat',
+                    x_pos : 2,
+                    y_pos : 2,
+                    
+                },
+                {
+                    cell_type : 'seat',
+                    x_pos : 3,
+                    y_pos : 2,
+                },
+                {
+                    cell_type : 'aisle',
+                    x_pos : 4,
+                    y_pos : 2,
+                },
+                {
+                    cell_type : 'seat',
+                    x_pos : 5,
+                    y_pos : 2,
+                },
+                {
+                    cell_type : 'seat',
+                    x_pos : 6,
+                    y_pos : 2,
+                },
+                {
+                    cell_type : 'seat',
+                    x_pos : 7,
+                    y_pos : 2,
+                },
+                {
+                    cell_type : 'wall',
+                    x_pos : 8,
+                    y_pos : 2,
+                },
+            ],
+            [
+                {
+                    cell_type : 'exit',
+                    x_pos : 0,
+                    y_pos : 3,
+                },
+                {
+                    cell_type : 'seat',
+                    x_pos : 1,
+                    y_pos : 3,
+                },
+                {
+                    cell_type : 'seat',
+                    x_pos : 2,
+                    y_pos : 3,
+                },
+                {
+                    cell_type : 'seat',
+                    x_pos : 3,
+                    y_pos : 3,
+                },
+                {
+                    cell_type : 'aisle',
+                    x_pos : 4,
+                    y_pos : 3,
+                },
+                {
+                    cell_type : 'seat',
+                    x_pos : 5,
+                    y_pos : 3,
+                },
+                {
+                    cell_type : 'seat',
+                    x_pos : 6,
+                    y_pos : 3,
+                },
+                {
+                    cell_type : 'seat',
+                    x_pos : 7,
+                    y_pos : 3,
+                },
+                {
+                    cell_type : 'exit',
+                    x_pos : 8,
+                    y_pos : 3,
                 },
             ]]
         }
@@ -93,6 +225,9 @@ class Plane extends React.Component {
                 {this.renderRows()}
             </div>)
         }
+
+
+    
     
 }
 
