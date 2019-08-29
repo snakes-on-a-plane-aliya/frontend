@@ -1,0 +1,51 @@
+@import "./_vars.scss";
+
+.cell{
+    box-sizing: border-box;
+    border: 2px solid #1c0000;
+    background-color: lightcyan;
+    font-family: $cellFont;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    font-size: 1.5em;
+}
+
+.seat {
+    font-family: $aisleFont;   
+    background-color: #7db5ab; 
+}
+
+.entrance, .exit {
+    background-color: #ff5959;
+    font-family: $liminal;
+
+}
+
+.aisle {
+    background-color: #2ea349;
+    font-family: $aisleFont;
+}
+
+.wall {
+    background-color: $invalidMoveColor;
+    font-family: $invalidMoveFont;
+}
+
+.facility {
+    background-color: $invalidMoveColor;
+    font-family: $invalidMoveFont;
+}
+
+
+.player{
+    background-color:rgb(72, 117, 117);
+    font-family: $playerFont;
+}
+
+button {
+    color: #00b7ff;
+    background-color: blue;
+    font-size: 1.5em;
+    font-family: $buttonFont;
+
+}
