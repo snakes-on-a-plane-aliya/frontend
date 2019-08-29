@@ -1,0 +1,13 @@
+@import "./_vars.scss";
+
+.Plane {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 4fr 5fr 5fr 5fr 10fr 5fr 5fr 5fr 4fr;
+}
+
+button {
+    text-align: center;
+    display: grid;
+    grid-template-rows: 4fr 5fr 5fr 5fr 10fr 5fr 5fr 5fr 4fr;
+}
